@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Zikriya Darbar",
+    "slug": "zikriya-darbar",
+    "version": "1.0.0",
+    "scheme": "zikriyadarbar",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.zikriyadarbar.app"
+    },
+    "android": {
+      "package": "com.zikriyadarbar.app",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_NETWORK_STATE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1a56db"
+      }
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#1a56db"
+        }
+      ]
+    ]
+  }
+}
