@@ -7,7 +7,7 @@ const localhost = debuggerHost ? debuggerHost.split(':')[0] : 'localhost';
 // ── Production API URL ─────────────────────────────────────────────────────
 // TODO: Replace with your actual deployed backend URL before Play Store release
 // Example: 'https://api.zikriyadarbar.com/api'
-const PRODUCTION_API_URL = 'https://YOUR_BACKEND_URL_HERE/api';
+const PRODUCTION_API_URL = 'https://backend-kvhn6a2ov-adeels.vercel.app/api';
 
 export const API_BASE_URL = __DEV__
   ? Platform.OS === 'web'
